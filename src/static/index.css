@@ -1,0 +1,264 @@
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: white;
+
+	margin-bottom: 35px;
+	margin-top: 0;
+	font-size: 45px;
+}
+header{
+    background-image: url(img/back.jpg);
+    padding: 30px;
+    text-align: center;
+    display: block;
+}
+.resto {
+    margin: 20px;
+}
+header img {
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    width: 80px;
+ }
+body {
+    margin: 0%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #405fc2a8;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #3d5cc2;
+}
+
+.navbar a.right {
+    float:left;
+    margin-left:20px;
+}
+
+.restaurant h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #3d5cc2;
+}
+
+.about{
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    display: flex;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 2px;
+}
+
+.row img {
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 350px;
+}
+
+.row img:hover {
+    flex: 1 1 140px;
+    opacity: 1;
+}
+
+.row h4 {
+    margin: 20;
+    color: #3d5cc2;
+}
+
+.row2 {
+    display: flex;
+}
+
+.side {
+    background-color: white;
+    padding: 20px;
+}
+
+.main {
+    background-color: white;
+    padding: 20px;
+}
+
+.wrap {
+    width: 100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.restaurant h2{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.restaurant {
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+
+.side {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+}
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    height: 55%;
+    padding: 17px;
+}
+.fakeimg img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+}
+.fakeimg h3{
+    color: white;
+}
+
+li {
+    border: 10px solid #3d5cc280;
+    padding: 10px;
+    margin: 0px;
+    width: 200px;
+    list-style-type: none; 
+  }
+  
+  .rate li {
+    cursor: pointer;
+  }
+  
+  .rate li > a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .rating {
+    margin-left: 100px;
+  }
+
+  .row5 {
+    display:flex;
+  }
+
+  .rating  {
+    padding: 5px;
+  }
+
+  .rate {
+    background-color: white;
+    padding: 5px;
+    margin-left: 80px;
+  }
+
+  .footer {
+    background-color: #ddd;
+    overflow: hidden;
+  }
+
+  .footer h4 {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footer h2{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .search-box {
+    position: absolute;
+    top: 310px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    background: #666666;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    }
+    .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+    }
+    .search-box:hover > .search-btn {
+    background: white;
+    color: black;
+    }
+    .search-btn {
+    color: #eeeeee;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+    }
+    .search-btn > i {
+    font-size: 20px;
+    }
+    .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+    }

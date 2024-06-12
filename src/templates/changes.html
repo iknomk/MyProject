@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="../static/changes.css">
+</head>
+<body>
+<div class="profile">
+    <h1 class="text-center">Привет, {{ user.username }}</h1>
+    <div class="profile-picture">
+        <img src="{{ url_for('static', filename='img/default.jpg') }}" class="rounded-circle profile-photo" alt="Profile photo">
+    </div>
+    <div class="profile-bio">
+        <p>Ваши данные:</p>
+        <p>Email: {{ user.email }}</p>
+    </div>
+    <div class="form-label">
+        <form method="post">
+            <input type="text" class="form-control" id="username" name="username" value="{{ user.username }}" required>
+            <input type="text" class="form-control" id="email" name="email" value="{{ user.email }}" required>
+            <input type="submit" value="Сохранить">
+        </form>
+    </div>
+    <div class="profile-link">
+        <a href="/"> Главная </a>
+        <a href="/profile"> Обратно в профиль </a>
+    </div>
+</div>
+</body>
+</html>

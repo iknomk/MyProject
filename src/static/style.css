@@ -1,0 +1,44 @@
+body {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-label {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+  }
+
+.form-label, .form1-label {
+    background-color: #0056b3;
+    width: 100px;
+
+}
+
+header{
+    background-image: url(img/back.jpg);
+    padding: 30px;
+    text-align: center;
+    display: block;
+}
+
+header h1{
+    color: white;
+}
+
+body {
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
